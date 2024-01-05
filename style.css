@@ -117,6 +117,11 @@ nav a {
 
 /* main Section */
 
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
 /* About Section */
 
 .about {
@@ -126,17 +131,26 @@ nav a {
   margin: 130px;
 }
 
-.section-title{
-    color:#181818;
-    text-align: center;
-    font-size: 35px;
-    font-weight: 700;
+.section-title {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
 }
 
-.section-p{
-    color:#757575;
-text-align: center;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
+.section-p {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-info {
+  text-align: center;
 }
