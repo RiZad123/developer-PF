@@ -41,7 +41,34 @@
   padding: 15px 35px;
 }
 
+.btn4 {
+  width: 200px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #fd6e0a;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 15px 35px;
+}
+
+.btn5 {
+  width: 150px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #fd6e0a;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 15px 35px;
+}
+
 /* Nav */
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -121,11 +148,9 @@ main {
   max-width: 1140px;
   margin: 0 auto;
 }
-main section{
-    margin-top: 130px;
+main section {
+  margin-top: 130px;
 }
-
-
 
 /* About Section */
 
@@ -160,14 +185,6 @@ main section{
   text-align: center;
 }
 
-
-
-
-
-
-
-
-
 /* Box Section */
 
 #whatido {
@@ -180,7 +197,6 @@ main section{
   gap: 25px;
   background: #fff;
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
-
 
   /* border: 1px solid; */
 }
@@ -210,11 +226,6 @@ main section{
   gap: 24px;
 }
 
-
-
-
-
-
 /* Resume Section */
 
 .RST {
@@ -224,9 +235,79 @@ main section{
   font-weight: 700;
 }
 
+.resume-container {
+  display: flex;
+  gap: 50px;
+}
 
-.resume-colum-title{
-    color: #474747;
-font-size: 30px;
-font-weight: 700;
+.RII {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.RID {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.RIT {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.resume-colum-title {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.download-cv {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Footer Section */
+
+footer {
+  display: flex;
+  gap: 100px;
+  background: #fff8f3;
+  margin-top: 100px;
+  padding: 230px 200px;
+}
+
+.footer-d {
+  color: #474747;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: start;
+}
+
+.social-icon a {
+  margin-right: 25px;
+}
+
+.social-icon{
+    margin-top: 40px;
+}
+
+.footer-colum {
+  width: 50%;
+}
+
+.Contact input,
+textarea {
+  display: block;
+  margin-bottom: 25px;
+  padding: 10px 35px;
+  border: none;
+  border-radius: 5px;
 }
